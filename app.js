@@ -19,14 +19,17 @@ const createValue = () => {
 
 const creatLi = () => {
   const input = document.getElementById("input");
-  createValue();
-  inputEl.value = "";
+  
+  if(inputEl.value){
+    createValue()
+  }
+  inputEl.value=""
 };
 
 ekleEl.addEventListener("click", creatLi);
 
-inputEl.addEventListener("keyup", (e) => {
-  if (e.code === "Enter") {
-    ekleEl.click();
-  }
+inputEl.addEventListener("keyup", (e)=>{
+    if(e.code==="Enter"){
+        ekleEl.click()
+    }
 });
