@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+   background:url("https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.to-do{
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+   
+}
+.input-div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ul-div{
+    width: 90%;
+    margin: auto;
+}
+#input{
+    width: 70%;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+    color:black;
+    background-color:rgba(158,158,158,1) 91%);
+    
+
+}
+#ekle{
+    width: 10%;
+    height: 40px;
+    color:black;
+    border: none;
+    margin-left: -1px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+
+}
+.list{
+    width: 80%;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+    
+}
+.list a{
+    text-decoration: none;
+     color: white;
+     margin-top: 20px;
+     font-weight: 600;
+
+}
+.list i{
+    color:white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.d-none{
+    display: none;
+}
